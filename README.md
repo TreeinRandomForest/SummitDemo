@@ -136,7 +136,11 @@ curl -d '{"instances": '$example_instance' }' \
 
 Custom flask server and client is requried to serve this model.
 
-[IN PROGRESS]
+To run the server, [flask app is included](/home/macermak/code/SummitDemo/v1_Gesture_Recognition_Serving.py):
+
+```bash
+./*Serving.py
+```
 
 
 ## Client
