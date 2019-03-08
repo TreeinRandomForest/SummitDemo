@@ -137,3 +137,19 @@ curl -d '{"instances": '$example_instance' }' \
 Custom flask server and client is requried to serve this model.
 
 [IN PROGRESS]
+
+
+## Client
+
+There is a `v1_Gesture_Recognition_Client.py` file which defines a simple client cli.
+
+For more info:
+
+```bash
+./*Client.py --help
+```
+
+Example usage:
+```bash
+./*Client.py $example_fpath --model_name='gestures_v1'
+```
